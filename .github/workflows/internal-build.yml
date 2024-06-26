@@ -1,4 +1,4 @@
-name: Internal Build [Android & IOS]
+name: Internal Build IOS
 run-name: ${{ inputs.buildname }}
 
 on:
@@ -15,7 +15,7 @@ on:
       buildFor:
         description: 'Build'
         required: true
-        default: 'Both[Android and IOS]'
+        default: 'IOS'
         type: choice
         options:
           - IOS
