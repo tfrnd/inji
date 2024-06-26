@@ -18,8 +18,6 @@ on:
         default: 'Both[Android and IOS]'
         type: choice
         options:
-          - Both[Android and IOS]
-          - Android
           - IOS
       buildName:
         description: 'Build App For'
@@ -29,12 +27,12 @@ on:
       mimotoBackendServiceUrl:
         description: 'Mimoto backend service URL'
         required: true
-        default: 'https://api.sandbox.mosip.net'
+        default: 'https://api.tfgov.idencode.link'
         type: string
       esignetBackendServiceUrl:
         description: 'Esignet backend service URL'
         required: true
-        default: 'https://api.sandbox.mosip.net'
+        default: 'https://api.tfgov.idencode.link'
         type: string
       injiFlavor:
         description: 'Select Inji flavor'
